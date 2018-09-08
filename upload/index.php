@@ -84,7 +84,7 @@ $_SESSION['enter_time'] = date("Y-m-d H-i-s");
                     <tbody>
 					<!--用于将已上传文件信息打印出来-->
 					<?php
-						$dir="./upload/file_upload/pic/";
+						$dir="./file_upload/pic/";
 						$sql = "SELECT * FROM file_type_pic";
 						$result = mysqli_query($connect, $sql);
 						while($data=mysqli_fetch_array($result))
