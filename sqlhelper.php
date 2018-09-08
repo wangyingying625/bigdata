@@ -7,7 +7,7 @@
         private $mysqli;
         private static $host="127.0.0.1";
         private static $user="root";
-        private static $pwd="rppt";
+        private static $pwd="rpat";
         private static $db="bigdata";
 
         public function  __construct()
