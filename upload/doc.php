@@ -32,19 +32,6 @@ include_once "connect.php";
     <script>DD_belatedPNG.fix('*');</script>
     <![endif]-->
 </head>
-
-<body>
-<header>
-    <div class="container">
-        <a href="upload.php" class="download-sec left" id="upload">上传</a>
-        <a href="../" class="download-sec right">退出</a>
-        <div class="profile-img">
-            <a href="../index.php" title="主页">
-                <img src="../images/photo.png" alt="img" width="360px" height="330px">
-            </a>
-        </div>
-    </div>
-</header>
 <body>
 <header>
     <div class="container">
